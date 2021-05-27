@@ -2,6 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void ft_putnbr(int nb);
+
 int main(void) {
 
 	printf("Test Numbers: 0,32700,-32700,-2147483648,42,-42\n");
