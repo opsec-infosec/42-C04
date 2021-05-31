@@ -12,7 +12,7 @@ int main() {
 	printf("Calling atoi(\"       ++42\");           | Expected = 42         | Result = %d\n",ft_atoi("       +42"));
 	printf("Calling atoi(\"       -+--42\");         | Expected = -42        | Result = %d\n",ft_atoi("       -+--42"));
 	printf("Calling atoi(\"       ---42AbuDhabi\");  | Expected = -42        | Result = %d\n",ft_atoi("       ---42AbuDhabi"));
-	printf("Calling atoi(\"       ---42Abu-Dhabi\"); | Expected = -42        | Result = %d\n",ft_atoi("       --42Abu-Dhabi"));
+	printf("Calling atoi(\"       ---42Abu-Dhabi\"); | Expected = -42        | Result = %d\n",ft_atoi("       ---42Abu-Dhabi"));
 	printf("Calling atoi(\"2147483647\");            | Expected = 2147483647 | Result = %d\n",ft_atoi("2147483647"));
 	printf("Calling atoi(\"---2147483647\");         | Expected = -2147483647| Result = %d\n",ft_atoi("---2147483647"));
 	printf("Calling atoi(\"2147483648\");            | Expected = -2147483648| Result = %d\n",ft_atoi("2147483648"));
